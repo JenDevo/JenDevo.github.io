@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>Hello</title>
     <meta charset="utf-8"/>
@@ -21,6 +21,7 @@
             <a href="#" class="col-sm-1 ms-2"><span>Home</span></a>
             <a href="#projects" class="col-sm-1 ms-2"><span>Projects</span></a>
             <a href="#aboutMe" class="col-sm-1 ms-2"><span>About Me</span></a>
+            <a href="#contactMe" class="col-sm-1 ms-2"><span>Contact Me</span></a>
         </div>
     </nav>
     <br>
@@ -30,7 +31,7 @@
 
         <!-- Me -->
         <article id="home" class="text-center">
-            <header class="mb-3">
+            <header class="mb-3" id="aboutMe">
                 <h1>Jenna Devora</h1>
                 <h3>Full-Stack Software Developer</h3>
                 <br>
@@ -46,7 +47,7 @@
         <br>
 
         <article class="text-center">
-            <h2>My Projects</h2>
+            <h2 id="projects">My Projects</h2>
             <div class="d-flex justify-content-center m-3">
                 <a href="#projects" class="text-decoration-none text-dark">
                     <div class="col-md-6 col-12"> <!-- Update the column class here -->
@@ -129,30 +130,33 @@
         <!--        </article>-->
 
         <!-- Contact -->
-        <article id="contact" class="panel text-center">
+        <article id="contactMe" class="panel text-center">
             <header>
                 <h2>Contact Me</h2>
             </header>
-            <form action="#" method="post">
-                <div>
-                    <div class="">
-                        <div class="col-12-md mb-1">
-                            <input type="text" name="name" placeholder="Name"/>
+            <form action="https://formsubmit.co/jenna.elise.devora@gmail.com" method="POST" class="d-flex justify-content-center">
+                <div class="form-group col-md-6">
+                    <div class="form-row">
+                        <div class="col mb-2">
+                            <input type="text" name="name" placeholder="Full Name" class="form-control"/>
                         </div>
-                        <div class="col-12-md mb-1">
-                            <input type="text" name="email" placeholder="Email"/>
-                        </div>
-                        <div class="col-12 mb-1">
-                            <input type="text" name="subject" placeholder="Subject"/>
-                        </div>
-                        <div class="col-12">
-                            <textarea name="message" placeholder="Message" rows="6"></textarea>
-                        </div>
-                        <div class="col-12 mb-1">
-                            <input type="submit" value="Send Message"/>
+                        <div class="col mb-2">
+                            <input type="email" name="email" placeholder="Email" class="form-control"/>
                         </div>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <div class="col mb-2">
+                            <input type="text" name="subject" placeholder="Subject" class="form-control"/>
+                        </div>
+                        <div class="col-12 mb-2">
+                            <textarea name="message" placeholder="Your Message" rows="10" class="form-control"></textarea>
+                        </div>
+                    </div>
+                        <div class="mb-2">
+                            <button type="submit" value="Send Message">Send</button>
+                        </div>
+                    </div>
+
             </form>
         </article>
 
