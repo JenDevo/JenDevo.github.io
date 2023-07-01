@@ -1,18 +1,13 @@
-.centered{
-    position: absolute;
-    top: 50%;
+.text-bg-color{
+   background-color: #B4656F;
+    height: auto;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-weight: bold;
-}
-
-.thumbnail{
-    position: relative;
-    display: inline-block;
+    border: 2px solid #EEE0CB;
+    color: #EEE0CB;
 }
 
 img{
-    display: block;
+    max-width: 100%;
+    min-height: 100%;
+    background-size: 100% 100%;
 }
