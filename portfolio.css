@@ -6,8 +6,19 @@
     color: #EEE0CB;
 }
 
-img{
-    max-width: 100%;
-    min-height: 100%;
-    background-size: 100% 100%;
+/*.card-body>img{*/
+/*    min-height: 20rem;*/
+/*    max-width: 50%;*/
+/*    min-width: 100%;*/
+/*}*/
+
+.carousel-item>.card{
+    height: 40rem;
+}
+
+.card-img-sizing{
+   height:auto;
+    max-width:100%;
+    object-fit: contain;
+    overflow-x: hidden;
 }
