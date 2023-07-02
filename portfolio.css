@@ -7,11 +7,11 @@
     margin-right: auto;
 }
 
-.card-body>img{
-    min-height: 20rem;
-    max-width: 50%;
-    min-width: 100%;
-}
+/*.card-body>img{*/
+/*    min-height: 20rem;*/
+/*    max-width: 50%;*/
+/*    min-width: 100%;*/
+/*}*/
 
 .carousel-item>.card{
     height: 40rem;
@@ -24,3 +24,17 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
+#eldenRingPic{
+    border-radius: 50%;
+    height: auto;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+
+}
+
+
+
