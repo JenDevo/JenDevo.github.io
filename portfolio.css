@@ -1,9 +1,10 @@
 .text-bg-color{
    background-color: #B4656F;
     height: auto;
-    left: 50%;
     border: 2px solid #EEE0CB;
     color: #EEE0CB;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*.card-body>img{*/
