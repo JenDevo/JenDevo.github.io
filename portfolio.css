@@ -7,11 +7,11 @@
     margin-right: auto;
 }
 
-/*.card-body>img{*/
-/*    min-height: 20rem;*/
-/*    max-width: 50%;*/
-/*    min-width: 100%;*/
-/*}*/
+.card-body>img{
+    min-height: 20rem;
+    max-width: 50%;
+    min-width: 100%;
+}
 
 .carousel-item>.card{
     height: 40rem;
@@ -19,7 +19,8 @@
 
 .card-img-sizing{
    height:auto;
-    max-width:100%;
-    object-fit: contain;
-    overflow-x: hidden;
+    max-width:75%;
+    min-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
