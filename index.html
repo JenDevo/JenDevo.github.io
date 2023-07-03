@@ -13,40 +13,40 @@
     <link rel="stylesheet" href="portfolio.css">
 
 </head>
-<body>
+<body class="bgTabsColor">
 
 <div class="container p-0">
 
     <!--    Insert Nav with social media links below  -->
-    <h2 class="mb-4">JenDev.info</h2>
+    <h2 class="mb-4 lightText">JenDev.info</h2>
 
     <!--  Tab nav for Pages  -->
     <div>
         <ul class="nav nav-tabs row text-center justify-content-center" id="myTab" role="tablist">
             <li class="nav-item col-md-3" role="presentation">
                 <a data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home"
-                   aria-selected="true" class="nav-link active" id="home-tab">Home</a>
+                   aria-selected="true" class="nav-link active darkText" id="home-tab">Home</a>
             </li>
 
             <li class="nav-item col-md-3">
                 <a data-bs-toggle="tab" data-bs-target="#menu1" type="button" role="tab" aria-controls="menu1"
-                   aria-selected="false" class="nav-link" id="menu1-tab">Projects</a>
+                   aria-selected="false" class="nav-link darkText" id="menu1-tab">Projects</a>
             </li>
 
             <li class="nav-item col-md-3">
                 <a data-bs-toggle="tab" data-bs-target="#menu2" type="button" role="tab" aria-controls="menu2"
-                   aria-selected="false" class="nav-link" id="menu2-tab">About Me</a>
+                   aria-selected="false" class="nav-link darkText" id="menu2-tab">About Me</a>
             </li>
 
             <li class="nav-item col-md-3">
                 <a data-bs-toggle="tab" data-bs-target="#menu3" type="button" role="tab" aria-controls="menu3"
-                   aria-selected="false" class="nav-link" id="menu3-tab">Contact Me</a>
+                   aria-selected="false" class="nav-link darkText" id="menu3-tab">Contact Me</a>
             </li>
         </ul>
 
 
         <!--  HOMEPAGE  -->
-        <div class="tab-content">
+        <div class="tab-content bgBodyColor">
             <div id="home" class="tab-pane active card border-0" role="tabpanel" aria-labelledby="home-tab"
                  tabindex="0">
                 <div class="card-body p-0">
@@ -196,15 +196,14 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="10000">
                                         <div class="card m-auto p-2">
-                                            <img src="img/portraitJD.jpg"
-                                                 class="card-img-sizing bg-boxshadow carousel-overlay rounded d-block"
+                                            <img src="img/JDPortrait.jpg"
+                                                 class="bg-boxshadow card-img-sizing carousel-overlay rounded d-block"
                                                  alt="Project picture">
-                                            <div class="card-body d-flex flex-column text-center">
+                                            <div class="card-body d-flex flex-column text-center my-auto">
                                                 <h5 class="card-title mt-3">FAQs</h5>
-                                                <p class="mt-3">
+                                                <p class="">
                                                 <ul>
-                                                    <li>Pictured here is myself with Bentley, I have had him for 3
-                                                        years, he is 7 years old. He has been such a joy and headache.
+                                                    <li>I have a 7-year-old Lhasa Apso / Schnauzer mix. He has been such a joy and headache.
                                                     </li>
                                                     <li>I am a middle child and left-handed.</li>
                                                     <li>My favorite dish is Chicken Alfredo with broccoli</li>
@@ -216,11 +215,11 @@
                                         </div>
                                     </div>
                                     <div class="carousel-item" data-bs-interval="10000">
-                                        <div class="card m-auto p-2">
-                                            <img src="img/owParamore.JPEG"
-                                                 class="card-img-sizing bg-boxshadow carousel-overlay rounded d-block"
+                                        <div class="card my-auto p-2">
+                                            <img src="img/owParamore.png"
+                                                 class="bg-boxshadow card-img-sizing carousel-overlay rounded d-block"
                                                  alt="Project picture">
-                                            <div class="card-body d-flex flex-column text-center">
+                                            <div class="card-body d-flex flex-column text-center my-auto">
                                                 <h5 class="card-title mt-3">Some Hobbies</h5>
                                                 <p class="mt-3">I enjoy gaming, usually on Xbox or switch. I mostly play Elden Ring / Dark Souls, Minecraft, Overwatch, Animal Crossing, or Dead by Daylight. And love listening to music, my favorite artists at the moment are Paramore, Miley Cyrus, and Young the Giant.</p>
 
@@ -258,26 +257,6 @@
                     <div class="m-3 p-4 row-md d-md-flex gx-5" id="aboutMe">
                         <div class="col-md-5">
                             <div>
-                                <!--                                <h1>Jenna Devora</h1>-->
-                                <!--                                <h3>Full-Stack Software Developer</h3>-->
-                                <!--                                <div>-->
-                                <!--                                    <p>Web Development Certificate from Codeup (2023)</p>-->
-                                <!--                                    <p>B.A. Psychology from Wells College (2021)</p>-->
-                                <!--                                </div>-->
-                                <!--                                <br>-->
-                                <!--                                <p>-->
-                                <!--                                    Professional Software Developer with a prior focus on psychological and cognitive-->
-                                <!--                                    sciences.-->
-                                <!--                                    Experience-->
-                                <!--                                    implementing industrial-organizational psychology for developing an advanced work-->
-                                <!--                                    environment.-->
-                                <!--                                    Challenging myself by utilizing full-stack skills alongside a psychological mindset-->
-                                <!--                                    to-->
-                                <!--                                    compose inventive-->
-                                <!--                                    solutions and produce optimized software applications ideal for enhanced user-->
-                                <!--                                    experience.-->
-                                <!--                                </p>-->
-
                                 <p>
                                     <strong>Technical Skills:</strong>
                                     HTML - CSS - Bootstrap - JavaScript - ES6 - jQuery - Ajax - JSON - RESTful API -
@@ -312,8 +291,8 @@
                             </div>
                         </div>
 
-                        <div class="col-md-7 ps-md-2 mt-md-5">
-                            <div class="text-center mt-md-5 ms-md-5">
+                        <div class="col-md-7 ps-md-2 mt-md-1">
+                            <div class="text-center ms-md-5">
                                 <h4>Professional Experience</h4>
                                 <p>Accenture - San Antonio, TX <br>
                                     Customer Service Associate / Aug 2022 - Dec 2022
