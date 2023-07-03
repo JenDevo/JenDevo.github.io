@@ -64,6 +64,17 @@ li{
     list-style-type: none;
 }
 
+.btn{
+    background: #44001A;
+    border: #B4656F solid 1px;
+    color: #EEE0CB;
+}
+
+.btn:hover{
+    background: #B4656F;
+    color: #EEE0CB;
+    border: #44001A solid 1px;
+}
 
 
 
