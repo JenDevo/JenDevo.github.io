@@ -1,3 +1,7 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .text-bg-color{
    background-color: #EEE0CB;
     height: auto;
@@ -55,6 +59,11 @@
 .lightText{
     color: #EEE0CB;
 }
+
+li{
+    list-style-type: none;
+}
+
 
 
 
